@@ -7,7 +7,7 @@ body {
 
 
 h1 {
-  color: #00ff88;
+  color: #ff00b3;
 }
 
 
@@ -16,7 +16,7 @@ h1 {
   width: 300px;
   height: 400px;
   background: #111;
-  border: 3px solid cyan;
+  border: 3px solid rgba(230, 126, 186, 0.74);
   margin: 20px auto;
   position: relative;
   overflow: hidden;
@@ -66,16 +66,16 @@ h1 {
 
 
 #jogador {
-  background: #00ff88;
-  color: #00ff88;
+  background: #ff00b3;
+  color: #ff00c8;
   left: 130px;
   top: 310px;
 }
 
 
 #inimigo {
-  background: #ff0066;
-  color: #ff0066;
+  background: #e757e7;
+  color: #e446e4;
   left: 30px;
   top: -70px;
 }
