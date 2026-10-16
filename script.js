@@ -104,3 +104,22 @@ const intervalo = setInterval(function() {
     if (carrosDesviados % 5 === 0) {
       nivel = nivel + 1;
       velocidade = velocidade + 1;
+
+
+      textoNivel.textContent = nivel;
+    }
+
+
+    // Reposiciona o inimigo acima da pista.
+    posicaoInimigo = -70;
+
+
+    // Sorteia a próxima faixa: 0, 1 ou 2.
+    faixaInimigo = Math.floor(Math.random() * 3);
+
+
+    inimigo.style.left = (faixaInimigo * 100 + 30) + "px";
+    inimigo.style.top = posicaoInimigo + "px";
+  }
+}, 20);
+
